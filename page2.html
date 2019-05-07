@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<div class="header">
+  <h1>World tourism analysis</h1>
+</div>
+
+<div class="topnav">
+  <a href="index.html"><b>Home page</b></a>
+  <a href="page1.html"><b>inbound tourism analysis</b></a>
+  <a href="page2.html"><b>outbound tourists analysis</b></a>
+  <a href="page3.html"><b>GDP and tourism</b></a>
+  <a href="page4.html"><b>Summary</b></a>
+</div>
+
+<div class="row">
+      <div class="column">
+         <div class="card">
+           <h2>World outbound tourists distribution</h2>
+           <embed width="100%" height="620px" scrolling="no" src="image/outbound_map.html">
+           <button id="show-code" onclick="myFunction()">show python code</button>           
+           <div id="myDIV"> <img width="70%" src="image/outbound_map.jpg" ></div>
+           <script src="js/function.js"></script>
+           <h4>The world map shows from 2007 to 2017, people in Europe, North America and East Asia like traveling abroad the most. And China is the fastest growing country of outbound traveler.</h4>
+         </div>
+
+         <div class="card">
+           <h2>Top countries where people like to travel</h2>
+           <embed width="100%" height="620px" scrolling="no" src="image/outbound_top.html">
+           <button id="show-code" onclick="myFunction1()">show python code</button>           
+           <div id="myDIV1"> <img width="60%" src="image/outbound_top.jpg"></div>
+            <script src="js/function.js"></script>
+           <h4>The line chart plots the top 10 countries where people like to travel the most. Again, 6 of 10 are European countries. The number of people traveling abroad in China had tripled within 10 years. This is due to the relaxation of issuing tourists visa to Chinese. Germany and Hong Kong fluctuate in the second and third places.</h4>
+         </div>
+ 
+        <div class="card">
+           <h2>Outbound tourists number compare to country's population</h2>
+           <embed width="100%" height="620px" scrolling="no" src="image/outbound_population_compare.html">
+           <button id="show-code" onclick="myFunction2()">show python code</button>           
+           <div id="myDIV2"> <img width="50%" src="image/outbound_population_compare.jpg"></div>
+           <script src="js/function.js"></script>
+           <h4>The multi-plot compares the outbound tourists number and the country's population. Although China has the leading number of tourists,  it is only 10% of the total population. The UK, Poland, Hong Kong, and Germany tourists number is higher than the population number, which means these countries' outbound travel times per capita is over 1.</h4>
+         </div>
+
+         <div class="card">
+           <h2>Tourists from which countries spend the most (exclude international transportation)</h2>
+           <embed width="100%" height="620px" scrolling="no" src="image/expenditure_bar.html">
+           <button id="show-code" onclick="myFunction3()">show python code</button>           
+           <div id="myDIV3"> <img width="90%" src="image/expenditure_bar.jpg"></div>
+           <script src="js/function.js"></script>
+            <h4>The stacked bar plot shows the per capita spending for the top countries travelers. Before 2014, French and American spent the most, after 2014, Chinese spending is the highest. Poles and Hong Kong people spent much less than the other countries, recalling the result of the previous plot: these two countries per capita travel time is very high, so we can conclude that people in these two countries have many short-distance trips.</h4>
+         </div>
+      </div>
+</div>
+
+<div class="footer">
+  <h3>GWU Data Science</h3>
+  <h3>Author:Chen Chen</h3>
+</div>
+
+</body>
+</html>
