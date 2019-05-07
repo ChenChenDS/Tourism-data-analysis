@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ADD8E6;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #708090;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFDEAD;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+
+.topnav a:last-child {
+  border-right: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create column */
+column {
+  float: left;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* button */
+#myDIV {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV1 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV2 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV3 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV4 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV5 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV6 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV7 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#myDIV8 {
+  display:none;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  background-color: white;
+  color:#A6ACAF£»
+  margin-top: 0px;
+}
+
+#show-code{
+  background: #FAD7A0;
+  color: black ;
+  display: block;
+  width: 135px;
+  font-size: 15px;
+  padding: 5px;
+  text-align:left;
+  margin:5px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #E6B0AA;
+  margin-top: 20px;
+  color: #571B7E ;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
