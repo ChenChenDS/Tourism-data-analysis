@@ -5,7 +5,7 @@ The international travel & tourism sector is growring at a fast pace. The World 
 
 ### Language
 python
-### #packages
+#### packages
  pandas<br> 
  numpy<br>
  plotly<br>
@@ -22,7 +22,7 @@ https://lovelybabycc.github.io/DATS6103-project3/
 ### instruction
 <li>Download the python code</li>
 <li>Download the excel file (put the excel in the same folder with python code)</li>
-<li>Register plotly account to run the graph</li>
+<li>Need plotly account to run the code</li>
 <li>Recommend use google chrome</li>
 
 ### Author: Chen Chen
