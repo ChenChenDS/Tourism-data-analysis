@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ADD8E6;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #708090;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFDEAD;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+
+.topnav a:last-child {
+  border-right: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #E6B0AA;
+  margin-top: 20px;
+  color: #571B7E ;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
