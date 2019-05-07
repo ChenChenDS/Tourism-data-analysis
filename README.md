@@ -20,8 +20,7 @@ python
 https://lovelybabycc.github.io/DATS6103-project3/
 
 ### Instruction
-<li>Download the python code</li>
-<li>Download the excel file (put the excel in the same folder with python code)</li>
+<li>Put the excel and python code in the same folder</li>
 <li>Need plotly account to run the code</li>
 <li>Recommend use google chrome</li>
 
