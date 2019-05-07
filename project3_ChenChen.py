@@ -5,7 +5,6 @@
 
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import plotly
 import plotly.plotly as py
@@ -19,7 +18,7 @@ import plotly_express as px
 
 
 #sign in plotly
-py.sign_in("cicichen0407", "fWbXlSXEcpZKnnI0pJ7Z")
+py.sign_in("name", "APIkey")
 # set all the data to 2 decimal
 pd.set_option("display.float.format", lambda x: "%.2f" % x)
 #ignore warning message 
