@@ -17,7 +17,7 @@ python
  html<br>
 
 ### Visualization link: 
-https://lovelybabycc.github.io/DATS6103-project3/
+https://chenchends.github.io/Tourism-data-analysis/
 
 ### Instruction
 <li>Put the excel and python code in the same folder</li>
